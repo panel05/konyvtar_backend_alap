@@ -15,7 +15,7 @@ use App\Http\Controllers\KonyvController;
 */
 
 Route::get('/', function () {
-    return view('index');
+    return view('welcome');
 });
 
 Route::get('/dashboard', function () {
